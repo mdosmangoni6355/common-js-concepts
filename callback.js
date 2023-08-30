@@ -22,3 +22,12 @@ greetings(greetEvening, 'Mr Tom Cruise');
 greetings(greetEvening, 'Mr Tom Palmer');
 greetings(greetNight, 'Mr John');
 greetings(greetNight, 'Mr Rambo');
+
+function loginHandler(){
+    console.log('Login Button Clicked');
+}
+
+document.getElementById('login-btn').addEventListener('click', loginHandler)
+// document.getElementById('login-btn').addEventListener('click', function(){
+//     console.log('Login button clicked');
+// })
